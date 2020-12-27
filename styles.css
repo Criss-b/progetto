@@ -33,7 +33,35 @@ body {
   text-shadow: 7px 7px 4px rgba(46, 46, 46, 0.411);
   font-size: 70px;
 }
-.container-section {
+.container-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ecececff;
+  margin-top: 10px;
+  padding: 30px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.a-menu {
+  padding: 7px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.a-style:link,
+.a-style:visited {
+  color: black;
+  text-decoration: none;
+}
+.a-menu:hover {
+  color: rgb(202, 201, 201);
+}
+
+.container-contenuto {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,7 +69,13 @@ body {
   width: auto;
   height: auto;
 }
-.presentazione {
+#presentazione {
+  margin-top: 40px;
+}
+#esperienze {
+  margin-top: 20px;
+}
+.p-style {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -49,15 +83,13 @@ body {
   border-radius: 10px;
   width: 85%;
   height: auto;
-  margin-top: 35px;
+  margin-top: 10px;
   margin-bottom: 35px;
   box-shadow: 7px 7px 5px rgba(46, 46, 46, 0.411);
-}
-.presentazione p {
   font-size: 25px;
 }
-.titolo-progetti {
-  margin-top: 30px;
+#progetti {
+  margin-top: 20px;
 }
 .container-progetti {
   display: flex;
@@ -116,14 +148,8 @@ body {
   margin: 10px;
   font-size: 1.5em;
 }
-a {
-  text-decoration: none;
-}
-a:link,
-a:visited {
-  color: black;
-}
-.item-link a:hover {
+
+.a-contatti:hover {
   color: #ffffff;
   font-weight: 900;
 }
@@ -145,9 +171,20 @@ a:visited {
   .ciao {
     font-size: 112px;
   }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .menu li {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .container-progetti {
     width: 70%;
   }
+
 }
 @media only screen and (min-width:961px) {
   .container-header{
@@ -155,6 +192,16 @@ a:visited {
   }
   .ciao {
     font-size: 210px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .menu li {
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .container-progetti {
     display: flex;
