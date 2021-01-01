@@ -193,7 +193,12 @@ body {
     padding-left: 40px;
     padding-right: 40px;
   }
-
+  .h1-style {
+    margin-top: 300px;
+  }
+  .p-style:last-of-type {
+    margin-bottom: 300px;
+  }	
   .container-progetti {
     display: flex;
     flex-direction: row;
@@ -201,6 +206,10 @@ body {
   }
   .progetto {
     width: 30%;
+  }
+  .container-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .item-link{
     display: flex;
