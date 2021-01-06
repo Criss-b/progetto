@@ -178,7 +178,7 @@ body {
 }
 @media only screen and (min-width:961px) {
   .container-header{
-    height: 750px;
+    height: 100vh;
   }
   .ciao {
     font-size: 210px;
