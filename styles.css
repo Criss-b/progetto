@@ -69,7 +69,7 @@ body {
   width: auto;
   height: auto;
 }
-.h1-style {
+.h2-style {
   margin-top: 40px;
 }
 .p-style {
@@ -193,7 +193,7 @@ body {
     padding-left: 40px;
     padding-right: 40px;
   }
-  .h1-style {
+  .h2-style {
     margin-top: 300px;
   }
   .p-style:last-of-type {
